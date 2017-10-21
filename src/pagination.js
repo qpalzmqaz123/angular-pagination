@@ -39,7 +39,7 @@ APP.directive('pagination', function() {
             '           <button class="btn btn-primary" ng-click="goToPage(jumpToPage)" ng-disabled="!jumpToPage || jumpToPage <= 0 || jumpToPage > pgCnt">Go</button>',
             '       </form>',
             '    </nav>',
-            '<div>',
+            '</div>',
         ].join(''),
 
         scope: {
